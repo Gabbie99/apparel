@@ -1,0 +1,84 @@
+.first-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    letter-spacing: 10px;
+    font-size: 500%;
+    padding-top: 13%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    color: rgb(233, 189, 194);
+    font-weight:lighter ;
+    width: 400px;
+}
+.we{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter ;
+    color: rgb(233, 189, 194);
+}
+
+#im{
+    background-color: rgb(233, 189, 194);
+    padding:10px;
+    border-radius: 35%;
+    
+}
+.inpbutt{
+    display: flex;
+    align-items: center;
+}
+input{
+    padding: 12px;
+    border: 1px solid rgb(234, 129, 141);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.inpbutt button{
+    padding: 6px 15px;
+    background-color: rgb(234, 129, 141);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+#mobile{
+    display: none;
+}
+footer{
+    background-color: darkgrey;
+    padding: 5px;
+}
+span{
+    color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    #desk{
+        display: none;
+    }
+
+    #mobile{
+        display: grid;
+        margin-top: 30px;
+    }
+    input{
+        /* margin-top: 30px; */
+        width: 300px;
+        position: absolute;
+    }
+    .div1{
+        padding-bottom: 50px;
+    }
+    .div1 button{
+        position: relative;
+        margin-left: 280px;
+        background-color: rgb(234, 129, 141);
+    }
+}
