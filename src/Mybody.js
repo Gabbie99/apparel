@@ -3,7 +3,7 @@ import './Mybody.css'
 import myhero from './images/myhero.jpg'
 import heromobile from './images/heromobile.jpg'
 import logo from './images/logo.svg'
-import myicon from './images/myicon.svg'
+
 
 function Mybody() {
   return (
