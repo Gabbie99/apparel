@@ -1,8 +1,9 @@
 import React from 'react'
 import './Mybody.css'
-import myhero from './images/myhero.jpg'
-import heromobile from './images/heromobile.jpg'
-import logo from './images/logo.svg'
+import myhero from '../images/myhero.jpg'
+import heromobile from '../images/heromobile.jpg'
+import logo from '../images/logo.svg'
+import {Link} from 'react-router-dom'
 
 
 function Mybody() {
@@ -19,17 +20,15 @@ function Mybody() {
             <div className="inpbutt">
               <input type="text" placeholder='email...' required  />
             {/* <img id='im' src={myicon} alt="icon" /> */}
+            <Link to='/about'>
             <button>{">"}</button>
-            </div>
-            
-           
-           
+            </Link>           
+            </div>           
         </div>
         <div>
             <img id='desk' src={myhero} alt="..lady" />
         </div>
-      </div>
-        
+      </div>        
         <footer>
           &copy; Copyright Gabbie A. Online Services 2022 | Developed by <span>Alexander Gabrielle</span>
         </footer>
